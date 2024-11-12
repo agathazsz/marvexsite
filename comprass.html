@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marvex Studio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/comprassstyle.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="img/logokarol.jpeg" alt="Logo" class="logo">
+        </div>
+    </header>
+    <nav>
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="filmes.html">Filmes</a></li>
+            <li><a href="jogos.html">Jogos</a></li>
+            <li><a href="personagens.html">Personagens</a></li>
+            <li><a href="comprass.html">Compras</a></li>
+            <li><a href="login.html">Login/Cadastro</a></li>
+            <li class="search-container"></li>
+                <form action="#" method="get">
+                    <input type="text" placeholder="Buscar..." class="search-input">
+                    <button type="submit" class="search-button"><i class="fas fa-search"></i></button>
+                </form>
+            </li>
+        </ul>
+    </nav>
+    
+        <div class="div-slider">
+            <ul class="slides-front">
+              <input type="radio" name="radio-btn" id="img-1" checked="">
+              <li class="slide-container">
+                 <div class="slide">
+                   <img src="img/capitaoboneco.png">
+                 </div>
+                 <div class="nav">
+                   <label for="img-6" class="prev">‹</label>
+                   <label for="img-2" class="next">›</label>
+                 </div>
+              </li>
+          
+              <input type="radio" name="radio-btn" id="img-2">
+              <li class="slide-container">
+                  <div class="slide">
+                    <img src="img/aranha.png">
+                  </div>
+              <div class="nav">
+                <label for="img-1" class="prev">‹</label>
+                <label for="img-3" class="next">›</label>
+              </div>
+              </li>
+          
+              <input type="radio" name="radio-btn" id="img-3">
+              <li class="slide-container">
+                  <div class="slide">
+                    <img src="img/formiga.png">
+                  </div>
+              <div class="nav">
+                <label for="img-2" class="prev">‹</label>
+                <label for="img-4" class="next">›</label>
+              </div>
+              </li>
+
+              <input type="radio" name="radio-btn" id="img-4">
+              <li class="slide-container">
+                  <div class="slide">
+                    <img src="img/lorena.png">
+                  </div>
+              <div class="nav">
+                <label for="img-3" class="prev">‹</label>
+                <label for="img-5" class="next">›</label>
+              </div>
+              </li>
+
+              <input type="radio" name="radio-btn" id="img-5">
+              <li class="slide-container">
+                  <div class="slide">
+                    <img src="img2/venoom.png">
+                  </div>
+              <div class="nav">
+                <label for="img-4" class="prev">‹</label>
+                <label for="img-6" class="next">›</label>
+              </div>
+              </li>
+
+              <input type="radio" name="radio-btn" id="img-6">
+              <li class="slide-container">
+                  <div class="slide">
+                    <img src="img/ded.png">
+                  </div>
+              <div class="nav">
+                <label for="img-5" class="prev">‹</label>
+                <label for="img-1" class="next">›</label>
+              </div>
+              </li>
+          
+              <li class="nav-dots">
+                <label for="img-1" class="nav-dot" id="img-dot-1"></label>
+                <label for="img-2" class="nav-dot" id="img-dot-2"></label>
+                <label for="img-3" class="nav-dot" id="img-dot-3"></label>
+                <label for="img-4" class="nav-dot" id="img-dot-4"></label>
+                <label for="img-5" class="nav-dot" id="img-dot-5"></label>
+                <label for="img-6" class="nav-dot" id="img-dot-6"></label>
+              </li>
+            </ul>
+          </div>
+    
+    </body>
+    
+
+    <section class="products">
+        <h2>Produtos Disponíveis</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>⠀⠀⠀⠀⠀⠀⠀⠀⠀</th>
+                    <th>Produto</th>
+                    <th>Preço</th>
+                    <th>Comprar</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="img/capitaoboneco.png" alt="Produto 1" width="100px" height="100px"></td>
+                    <td>Boneco Capretão Américo</td>
+                    <td>R$ 149,90</td>
+                    <td><button>Adicionar ao Carrinho</button></td>
+                </tr>
+                <tr>
+                    <td><img src="img/aranha.png" alt="Produto 2" width="100px" height="100px"></td>
+                    <td>Boneco Aranhão</td>
+                    <td>R$ 179,90</td>
+                    <td><button>Adicionar ao Carrinho</button></td>
+                </tr>
+                <tr>
+                    <td><img src="img/formiga.png" alt="Produto 3" width="100px" height="100px"></td>
+                    <td>Boneco Formigão</td>
+                    <td>R$ 199,90</td>
+                    <td><button>Adicionar ao Carrinho</button></td>
+                </tr>
+                <tr>
+                    <td><img src="img/lorena.png" alt="Produto 1" width="100px" height="100px"></td>
+                    <td>Boneca Lorena</td>
+                    <td>R$ 149,90</td>
+                    <td><button>Adicionar ao Carrinho</button></td>
+                </tr>
+                <tr>
+                    <td><img src="img2/venoom.png" alt="Produto 1" width="100px" height="100px"></td>
+                    <td>Boneco Linguão</td>
+                    <td>R$ 189,90</td>
+                    <td><button>Adicionar ao Carrinho</button></td>
+                </tr>
+                <tr>
+                    <td><img src="img/ded.png" alt="Produto 1" width="100px" height="100px"></td>
+                    <td>Boneco Dédepul</td>
+                    <td>R$ 139,90</td>
+                    <td><button>Adicionar ao Carrinho</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <footer>
+        <div id="footercontent">
+            <div id="footercontatos">
+                <td><img src="img/logokarol.jpeg" alt="Logo Marvex" width="200" height="100"></td>
+            <div id="footeredesocial">
+                <a href="https://www.instagram.com/" class="footerlink" id="instagram">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="https://www.facebook.com/?locale=pt_BR" class="footerlink" id="facebook">
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </a>
+
+                <a href="https://twitter.com/" class="footerlink" id="twitter">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+            </div>
+            </div>
+            <ul class="footerlista">
+                <li>
+                    <a href="index.html" class="footerlink">Home</a>
+                </li>
+                <li>
+                    <a href="filmes.html" class="footerlink">Filmes</a>
+                </li>
+                <li>
+                    <a href="jogos.html" class="footerlink">Jogos</a>
+                </li>
+            </ul>
+            <ul class="footerlista">
+                <li>
+                    <a href="personagens.html" class="footerlink">Personagens</a>
+                </li>
+                <li>
+                    <a href="comprass.html" class="footerlink">Compras</a>
+                </li>
+                <li>
+                    <a href="login.html" class="footerlink">Login/Cadastro</a>
+                </li>
+            </ul>
+
+                <div id="footerinscrever">
+                    <h3>Inscreva-se</h3>
+
+                    <p> 
+                        Insira seu email para ficar por dentro das novidades!
+                    </p>
+
+                    <div id="inputgrp">
+                        <input type="email" id="email">
+                        <button>
+                            <i class="fa-regular fa-envelope"></i>
+                        </button>
+                    </div>
+                </div>
+            </ul>
+        </div>
+
+        <div id="footercopyrights">
+            &#169
+            2024 Todos os direitos reservados - Página feita por Ágatha Isabelli
+        </div>
+    </footer>
+</body>
+</html>

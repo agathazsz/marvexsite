@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+:root{
+    --default-color: #48409e
+}
+
+::selection{
+    background-color: rgb(0, 119, 255);
+    color: white;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    padding: 40px;
+}
+
+.container{
+    max-width: 850px;
+    background: white;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px 30px;
+}
+
+.container .loginform .title{
+    position: relative;
+    font-size: 24px;
+    font-weight: 500;
+    color: #333;
+}
+
+.container .loginform .title::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 25px;
+    background-color: rgb(228, 0, 0);
+}
+
+.container .loginform .inputbox{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    margin: 10px 0;
+    position: relative;
+}
+
+.container .loginform .inputbox input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 500;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.container .loginform .inputbox input:focus,
+.container .loginform .inputbox input:valid{
+    border-color: #f60000;
+}
+
+.container .loginform .inputbox input[type="submit"]{
+    background-color: #f60000;
+    border: 0;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container .loginform .inputbox i{
+    position: absolute;
+    color: #f60000;
+    font-size: 17px;
+}
+
+.container .loginform .forgot a{
+    color: #f60000;
+}
+
+.container .loginform .divider{
+    text-align: center;
+    margin: 10px;
+    font-size: 18px;
+}
+
+.container .loginform .redesocial{
+    text-align: center;
+} 
+
+.container .loginform .redesocial i{
+    margin: 10px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.container .loginform .redesocial i:hover{
+    color: #f60000;
+    transition: all 0.15s;
+}
+
+
+.container .loginform .signuptext a{
+    color: #f60000;
+}
+
+.container .loginimg{
+    width: 55%;
+}
+
+
+.botaolink {
+    width: 100%;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #df0000;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.botaolink:hover {
+    background-color: #b20101;
+}
